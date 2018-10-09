@@ -1,19 +1,17 @@
 {
   "pages": [
-    "pages/detail/detail",
-    "pages/search/search",
+    "pages/logs/logs",
     "pages/index/index",
-    "pages/logs/logs"
-    
-    
-    
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/adduser/adduser"
   ],
-"window": {
-  "navigationBarBackgroundColor": "#109D59",
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "嘟嘟购票",
-  "backgroundColor": "#eeeeee",
-  "backgroundTextStyle": "light",
-  "enablePullDownRefresh": false
-}
+  "window": {
+    "navigationBarBackgroundColor": "#109D59",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "嘟嘟购票",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
 }

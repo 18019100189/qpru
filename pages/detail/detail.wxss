@@ -26,7 +26,8 @@
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
+  color: #a9a9a9;
 }
 .detail_ticket{
   display: flex;
@@ -45,13 +46,15 @@
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
+  
+  
 }
 .detail_price{
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
 }
 .add_user{
   display: flex;

@@ -35,7 +35,7 @@
   </view>
   <view class='add_user'>
     <image src=''></image>
-    <text>添加乘客</text>
+    <text bindtap='adduser'>添加乘客</text>
   </view>
   <view class='detail_submit'>
     <button>提交订单</button>

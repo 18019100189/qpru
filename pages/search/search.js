@@ -9,7 +9,7 @@ Page({
   data_listto: function (e) {
     console.log("111111");
     wx.navigateTo({
-      url: '../detali/detail',
+      url: '../detail/detail',
     })
   }
 })
