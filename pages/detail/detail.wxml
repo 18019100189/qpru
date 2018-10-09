@@ -1,36 +1,36 @@
 <view class='detail_wxml'>
   <view class='detail_time'>
     <text>前一天</text>
-    <text>2018/10/08</text>
+    <text>{{curtime}}</text>
     <text>后一天</text>
   </view>
   <view class='detail_site'>
     <view class='detail_dep'>
-      <text>杭州东</text>
-      <text>G1520</text>
-      <text>上海虹桥</text>
+      <text>{{departure}}</text>
+      <text>{{train}}</text>
+      <text>{{terminal}}</text>
     </view>
     <view class='detail_ter'>
-      <text>11:18出发</text>
-      <text>1小时4分钟</text>
-      <text>12:22到达</text>
+      <text>{{departuretime}}</text>
+      <text>{{duration}}</text>
+      <text>{{timeofarrival}}</text>
     </view>
   </view>
   <view class='detail_ticket'>
     <view class='detail_grade'>
-      <text>商务</text>
-      <text>一等</text>
-      <text>二等</text>
+      <text>{{business}}</text>
+      <text>{{firstclass}}</text>
+      <text>{{secondclass}}</text>
     </view>
     <view class='detail_res'>
-      <text>无</text>
-      <text>无</text>
-      <text>1张</text>
+      <text>{{residual1}}</text>
+      <text>{{residual2}}</text>
+      <text>{{residual3}}</text>
     </view>
     <view class='detail_price'>
-      <text>¥219.5</text>
-      <text>¥117</text>
-      <text>¥73</text>
+      <text>{{price1}}</text>
+      <text>{{price2}}</text>
+      <text>{{price3}}</text>
     </view>
   </view>
   <view class='add_user'>
@@ -38,7 +38,7 @@
     <text bindtap='adduser'>添加乘客</text>
   </view>
   <view class='detail_submit'>
-    <button>提交订单</button>
+    <button bindtap='submit'>提交订单</button>
   </view>
   <textarea class='areatext'>
   温馨提示：赶紧跑，鬼来了！！！

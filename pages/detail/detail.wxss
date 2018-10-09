@@ -39,7 +39,6 @@
 .detail_grade{
   margin-top: 10px;
   display: flex;
-  
   justify-content: space-around;
 }
 .detail_res{
@@ -47,14 +46,13 @@
   display: flex;
   justify-content: space-around;
   font-size: 15px;
-  
-  
 }
 .detail_price{
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
   font-size: 15px;
+  color: #a9a9a9;
 }
 .add_user{
   display: flex;
@@ -67,7 +65,7 @@
   height: 20px;
 }
 .detail_submit{
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .areatext{
   color: red;

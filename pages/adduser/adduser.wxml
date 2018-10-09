@@ -2,9 +2,9 @@
   <view class='adduser_data'>
     <checkbox class='checkbox_user'>
       <view class='checkbox_data'>
-        <text class='text1'>赵学荣</text>
-        <text class='text2'>成人</text>
-        <text class='text3'>123456789012345678</text>
+        <text class='text1'>{{user}}</text>
+        <text class='text2'>{{identity}}</text>
+        <text class='text3'>{{ID}}</text>
       </view>
     </checkbox>
   </view>
