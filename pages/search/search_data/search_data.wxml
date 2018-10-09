@@ -1,0 +1,17 @@
+<template name="true_list_data">
+  <view class='true_list'>
+    <view class='data_list' bindtap='data_listto'>
+      <view class='true_list_data1'>
+        <text>D3322</text>
+        <text>杭州东</text>
+        <text>1小时7分钟</text>
+        <text>上海虹桥</text>
+      </view>
+      <view class='true_list_data2'>
+        <text>一等：无</text>
+        <text>二等：无</text>
+        <text>无座：无</text>
+      </view>
+    </view>
+  </view>
+</template>

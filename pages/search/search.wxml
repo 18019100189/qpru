@@ -1,0 +1,32 @@
+<view class='search_wxml'>
+  <view class='timesearch'>
+    <text>前一天</text>
+    <text>2018/10/08</text>
+    <text>后一天</text>
+  </view>
+  <view class='true_list'>
+    <view class='data_list' bindtap='data_listto'>
+      <view class='true_list_data1'>
+        <text>D3322</text>
+        <text>杭州东</text>
+        <text>1小时7分钟</text>
+        <text>上海虹桥</text>
+      </view>
+      <view class='true_list_data2'>
+        <text>一等：无</text>
+        <text>二等：无</text>
+        <text>无座：无</text>
+      </view>
+    </view>
+    <view class='filter'>
+      <text bindtap=''>发时</text>
+      <image src='../images/sxjh.jpg'></image>
+      <text bindtap=''>历时</text>
+      <image src='../images/sxjh.jpg'></image>
+      <text bindtap=''>到时</text>
+      <image src='../images/sxjh.jpg'></image>
+      <text bindtap=''>票价/余票</text>
+      <image src='../images/sxjh.jpg'></image>
+    </view>
+  </view>
+</view>

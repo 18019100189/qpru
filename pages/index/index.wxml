@@ -1,0 +1,34 @@
+<view>
+<swiper>
+  <swiper-item class='index_image'>
+      <image src='../images/loginLog.jpg'></image>
+      <image src='../images/loginLog.jpg'></image>
+      <image src='../images/loginLog.jpg'></image>
+  </swiper-item>
+  </swiper>
+  <view class='index_wxml'>
+
+    <view class='stdion'>
+      <input class="inputStationOne" bindinput='inputStationOne' placeholder="始发站" />
+
+      <image class='stdionImages' src='../images/jh.jpg'></image>
+      <input class="inputStationTow" placeholder="终点站" bindinput='inputStationTow' />
+    </view>
+    <view class='inputtime_view'>
+      <input class="inputtime" bindinput='inputtime' placeholder="出发时间" />
+    </view>
+    <view class='student'>
+      <div>
+        <label class="labTrain">只看高铁/动车</label>
+        <checkbox class='checkboxOne' value=''></checkbox>
+      </div>
+      <div>
+        <label class="loginLab">学生票</label>
+        <checkbox class='checkboxTow' value=''></checkbox>
+      </div>
+    </view>
+    <view class='search'>
+      <button bindtap='search'style='background-color: #00CD86'>查询</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+    
+  ],
+"window": {
+  "navigationBarBackgroundColor": "#109D59",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "嘟嘟购票",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}
+}
