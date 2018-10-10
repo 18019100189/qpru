@@ -28,7 +28,7 @@
       </div>
     </view>
     <view class='search'>
-      <button bindtap='search'style='background-color: #00CD86'>查询</button>
+      <button bindtap='search'style='background-color: #109D59'>查询</button>
     </view>
   </view>
 </view>

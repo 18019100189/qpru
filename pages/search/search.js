@@ -1,4 +1,4 @@
-var traindata = require("search_data/search_data.js");
+var traindata = require("/search_data/search_data.js");
 Page({
 
   /**

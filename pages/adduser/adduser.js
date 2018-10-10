@@ -1,9 +1,14 @@
+var userdata = require("../adduser/adduserdata/adduserdata.js");
 Page({
 
   data: {
-     user:'赵学荣',
-     identity:'成人',
-     ID:'123456789012345678'
+    userdata:''
+  },
+  onLoad: function (options) {
+    this.setData({
+      userdata: userdata.userdata
+    })
+
   },
   select:function(e){
     wx.navigateTo({
@@ -11,3 +16,4 @@ Page({
     })
   }
 })
+

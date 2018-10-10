@@ -4,7 +4,7 @@ var traindata = [{
   traintimes: 'G1122',
   departurestation: '杭州东',
   duration: '50分钟',
-  terminal:'上海虹桥',
+  terminal: '上海虹桥',
 
   //席位信息
   business: '商务',

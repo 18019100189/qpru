@@ -1,0 +1,9 @@
+<template name="userdata">
+  <checkbox class='checkbox_user'>
+    <view class='checkbox_data'>
+      <text class='text1'>{{user}}</text>
+      <text class='text2'>{{identity}}</text>
+      <text class='text3'>{{ID}}</text>
+    </view>
+  </checkbox>
+</template>
