@@ -10,6 +10,7 @@
 
     <view class='stdion'>
       <input class="inputStationOne" bindinput='inputStationOne' placeholder="始发站" />
+      
 
       <image class='stdionImages' src='../images/jh.jpg'></image>
       <input class="inputStationTow" placeholder="终点站" bindinput='inputStationTow' />
